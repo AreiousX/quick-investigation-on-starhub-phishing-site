@@ -4,7 +4,7 @@ So I got this SMS, it's obvious that it's a phishing attempt but let's look at i
 
 ![alt text](Resources/screenshot.jpg)
 
-URL shortner ```it.do/StarHub``` (never click on these things, espically if it's a random SMS)
+URL shortner ```bit.do/StarHub``` (never click on these things, espically if it's a random SMS)
 
 ![alt text](Resources/Screenshot_8.png)
 
@@ -15,7 +15,7 @@ Another redirect, checks user agent, redirect to real starhub site if it's deskt
 Clooudflare protection, blocks connection if it's desktop browser, & blocks non SG IP. Redirects to ```https://xxxx.my-starhub.site/s``` for android and ```https://ios.my-starhub.site/s``` for iphone.
 
 ![alt text](Resources/Screenshot_2.png)
-Dynamic URL, with a token at the at end, not sure what it does but it doesn't change from what I can see. ```https://uepzw.my-starhub.site/Dengluzhong.php?token=qq121314``` where ```uepzw``` is a random string for each new instance. I had to change my browser user agent to get here.
+Dynamic URL, with a token at the at end, not sure what it does but it doesn't change from what I can see. ```https://uepzw.my-starhub.site/Dengluzhong.php?token=qq121314``` where ```<uepzw>``` is a random string for each new instance. I had to change my browser user agent to get here.
 
 ![alt text](Resources/Screenshot_5.png)
 Entering any number will lead to the next page.
